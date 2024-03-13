@@ -1,0 +1,13 @@
+import java.util.Arrays;
+public class Main
+{
+	public static void main(String[] args) {
+	    int []a1={1,2,3};
+	    int []a2={1,2,3};
+	    int []a3={7,8,9};
+	    boolean equals1and2= Arrays.equals(a1,a2);
+	    boolean equals1and3= Arrays.equals(a1,a3);
+		System.out.println("array1 equals array2?" +equals1and2);
+		System.out.println("array1 equals array3?" +equals1and3);
+	}
+}
